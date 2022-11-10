@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/shar"
+        app:layout_constraintBottom_toTopOf="@+id/user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.765" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:background="#efefef"
+        android:backgroundTint="#efefef"
+        android:gravity="center"
+        android:hint="@string/Username"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:background="#efefef"
+        android:backgroundTint="#efefef"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:importantForAutofill="no"
+        android:inputType="numberPassword"
+        android:shadowColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:padding="@dimen/cardview_compat_inset_shadow"
+        android:text="@string/ForgotPassword"
+        android:onClick="forgetpass"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.916" />
+
+    <Button
+        android:id="@+id/press"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:onClick="open"
+        android:paddingStart="@dimen/cardview_compat_inset_shadow"
+        android:paddingEnd="@dimen/cardview_compat_inset_shadow"
+        android:text="@string/Login"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/newaccount"
+        android:layout_width="270dp"
+        android:layout_height="35dp"
+        android:paddingStart="@dimen/cardview_compat_inset_shadow"
+        android:paddingEnd="@dimen/cardview_compat_inset_shadow"
+        android:text="@string/Createnewaccount"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979" />
+
+    <ImageView
+        android:id="@+id/google"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/goole"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.299"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+
+    <ImageView
+        android:id="@+id/twitterr"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/tiwiitr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/todo6"
+        android:src="@drawable/facebook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

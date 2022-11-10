@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <ImageView
+        android:id="@+id/lap"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/todo1"
+        android:src="@drawable/laptop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/laptop1"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="00dp"
+        android:text="@string/laptop"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="UsingOnClickInXml" />
+
+    <ImageView
+        android:id="@+id/pc1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/todo3"
+        android:src="@drawable/pc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81" />
+
+
+    <ImageView
+        android:id="@+id/pc7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/todo3"
+        android:src="@drawable/sumsung"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <Button
+        android:id="@+id/pc4"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="@string/computer"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.799"
+        tools:ignore="UsingOnClickInXml" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/back"
+        android:src="@drawable/ic_ios"
+        android:onClick="back2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+
+    <Button
+        android:id="@+id/pc3"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="SAMSUNG"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944"
+        tools:ignore="UsingOnClickInXml" />
+
+    <ImageView
+        android:id="@+id/phon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/todo4"
+        android:src="@drawable/iphine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335"/>
+
+
+    <ImageView
+        android:id="@+id/kitchen2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/todo5"
+        android:src="@drawable/play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664" />
+
+    <Button
+        android:id="@+id/phon1"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:onClick="one"
+        android:text="@string/phone"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/choose"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/choose_the_type_of_device_you_want_to_repair"
+        android:textColor="#000000"
+        android:textSize="19sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <Button
+        android:id="@+id/kitchen1"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="@string/KitchenDevices"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.674"
+        tools:ignore="UsingOnClickInXml" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

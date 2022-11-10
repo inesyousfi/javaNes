@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:background="#efefef"
+        android:backgroundTint="#efefef"
+        android:gravity="center"
+        android:hint="Enter your area"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/back"
+        android:src="@drawable/ic_ios"
+        android:onClick="back1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/tapp"
+        android:layout_width="299dp"
+        android:layout_height="45dp"
+        android:onClick="enter"
+        android:text="@string/Enter"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806"
+        tools:ignore="UsingOnClickInXml" />
+
+    <ImageView
+        android:id="@+id/lac"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:contentDescription="@string/todo2"
+        android:src="@drawable/lcat10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286" />
+</androidx.constraintlayout.widget.ConstraintLayout>
